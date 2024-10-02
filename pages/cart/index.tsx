@@ -1,5 +1,5 @@
 import CartList from "@/components/cart/CartList"
-import OrderSumary from "@/components/cart/OrderSumary"
+import OrderSummary from "@/components/cart/OrderSummary"
 import { ShopLayout } from "@/components/layouts"
 import { Button, Card, CardContent, Divider, Grid, Typography } from "@mui/material"
 
@@ -18,7 +18,7 @@ const CartPage = () => {
             <CardContent>
               <Typography variant='h2'>Orden</Typography>
               <Divider sx={{my:2}} />
-              <OrderSumary />
+              <OrderSummary />
               <Button color='secondary' className='curcular-btn' fullWidth>
                 Pagar
               </Button>
