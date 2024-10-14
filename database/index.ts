@@ -1,5 +1,4 @@
-export * as db from './db';
-export * from './constants';
+export * as db from "./db";
 
-// data semilla
-export * as seedDatabase from './products';
+// Data semilla
+export * as seedDatabase from "./products";
